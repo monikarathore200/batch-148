@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
  
+
+body{
+   cursor: url(/public/cursor-icon.png),auto;
+}
  .slider-item-1{
      background-image: url('https://www.pilogistics.in/assets/images/slider-bg.jpg');
      padding: 100px;
@@ -63,6 +67,7 @@
  .servicesline{
     width: 10%;
     margin-top: 10px;
+    background: #000;
     border: 1.5px solid #02B4A5;
  }
 
@@ -200,6 +205,193 @@ position: relative;
    margin-top: 100px;
  } 
  .ourclientline{
-   width: 50px;
-   border:1px solid #02B4A5;
+   width:8%;
+   border:1.5px solid #02B4A5;
+   margin: auto;
  }
+.ourblogline{
+   width:8%;
+   border:1.5px solid #02B4A5;
+   margin: auto;
+}
+
+.blogupdatecard{
+   box-shadow: 0px 0px  1px black;
+   border-radius: 10px;
+   width: 33%;
+   margin: 10px;
+}
+
+.blogimg img{
+padding-top: 10px;
+width: 100%;
+padding: 25px 25px 0px 25px;
+
+}
+.blogupdatecard p{
+font-size: 20px;
+margin: 10px 23px ;
+font-weight:bolder ;
+color: #264653;
+
+}
+.blogupdatecard button{
+  color: white;
+  background-color: #02B4A5;
+  border: none;
+  margin: 8px 30px;
+ 
+}
+
+.pilogisticmainbg {
+   background-image: linear-gradient(to right, #009698 -3%, #1e8fd0);
+ }
+ 
+ .pilogisticline {
+   width: 15%;
+   border: 1px solid #faa61a;
+ }
+ 
+ .pilogisticheading {
+   color: white;
+ }
+ 
+ .pilogistics {
+   color: white;
+ }
+ 
+ .pilogistics {
+   width: 40%;
+ }
+ 
+ .quicklinks {
+   width: 19%;
+ }
+ 
+ .quicklinksulli ul li {
+   list-style: none;
+   color: white;
+ }
+ 
+ .quicklinksheading {
+   color: white;
+   padding-left: 30px;
+ }
+ 
+ .quicklinksline {
+   width: 30%;
+   border: 1px solid #faa61a;
+   padding-left: 25px;
+   margin-left: 30px;
+ }
+ 
+ .servicesheading {
+   color: white;
+ }
+ 
+ .servicesline {
+   width: 14%;
+   border: 1px solid #faa61a;
+   padding-left: 25px;
+ }
+ 
+ .servicesulli ul {
+   list-style: none;
+   color: white;
+ }
+ 
+ .servicescontact {
+   font-size: 14px;
+   color: white;
+   width: 350px;
+ }
+ 
+ .bottomline {
+   border: 1px solid #06828f;
+   width: 85%;
+   margin: auto;
+ }
+ 
+ .bottommain {
+   background-image: linear-gradient(to right, #009698 -3%, #1e8fd0);
+ }
+ 
+ .groupofcompanies {
+   color: white;
+ }
+ .groupcomapniesline {
+   width: 3%;
+   margin: auto;
+   border: 1px solid orange;
+ }
+ 
+ .bottomboxes {
+   color: white;
+ }
+ 
+ .bottomtextpart {
+   font-size: 14px;
+ }
+ 
+ .sidebardiv {
+   background-color: #02b4a5;
+   position: fixed;
+   top: 30%;
+   right: -6.5%;
+   color: white;
+   font-weight: 500;
+   border-radius: 5px;
+   font-size: 20px;
+   padding: 4px;
+ }
+ .sidebardiv:hover {
+   right: 0%;
+   opacity: 1;
+   transition: 0.3s;
+ }
+ 
+ .sidebarwhatsapp {
+   background-color: #02b4a5;
+   position: fixed;
+   top: 36%;
+   right: -6.6%;
+   color: white;
+   font-weight: 500;
+   border-radius: 5px;
+   font-size: 20px;
+   padding: 4px;
+ }
+ 
+ .sidebarwhatsapp:hover {
+   right: 0%;
+   opacity: 1;
+   transition: 0.3s;
+ }
+ .phonesidebar {
+   background-color: #02b4a5;
+   position: fixed;
+   top: 42%;
+   right: -3%;
+   color: white;
+   font-weight: 500;
+   border-radius: 5px;
+   font-size: 20px;
+   padding: 4px;
+ }
+ 
+ .phonesidebar:hover {
+   right: 0%;
+   opacity: 1;
+   transition: 0.3s;
+  
+ }     
+
+
+
+.pilogsticmain{
+   background-image: linear-gradient(to right, #009698 -3%, #1e8fd0);
+}
+
+/* .servicesmain{
+  background-image: linear-gradient(to right, #009698 -3%, #1e8fd0);
+} */
